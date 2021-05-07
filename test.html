@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="contacts.js"></script>
+	<link rel="stylesheet" type="text/css" href="contacts.css">
+</head>
+<body>
+	<header><h1>Mis contactos</h1></header>
+
+	<main>
+		<table id="contacts" >
+			<tr>
+				<th>Nombre</th>
+				<th>Teléfono</th>
+			</tr>
+
+		</table>
+	</main>
+
+	<section>
+		<h2>Nuevo contacto</h2>
+		<form id="formulario">
+			<label>Nombre</label><input type="text" name="name" id="name" value="">
+			<label>Teléfono</label><input type="text" name="phone" id="phone" value="">
+			<input type="button" name="nuevo" onclick="newContact()" value="Añadir">
+		</form>
+	</section>
+</body>
+</html>

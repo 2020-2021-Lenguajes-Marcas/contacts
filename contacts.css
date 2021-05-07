@@ -1,0 +1,4 @@
+
+#contacts tr:nth-child(odd) {
+	background-color: gray;
+}
